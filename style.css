@@ -1,0 +1,90 @@
+
+* {
+  margin: 0;
+  font-family: Impact;
+}
+
+.container {
+  margin: 0 0 0 0;
+}
+
+.title {
+  padding: 10px;
+  margin-bottom: 20px;
+  background-color: cadetblue;
+  text-align: center;
+}
+
+.body {
+  margin-left: 50px;
+}
+
+.memeForm {
+  margin-bottom: 20px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 80%;
+  height: 25px;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+#submitButton {
+  padding: 10px 20px;
+  font-size: 15px;
+  border-radius: 15px;
+  background-color: cadetblue;
+}
+
+#submitButton:focus {
+  outline: none;
+}
+
+#submitButton:hover {
+  cursor: pointer;
+}
+
+.memes {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.memeContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+p {
+  position: absolute;
+  color: white;
+}
+
+p.top {
+  top: 20px;
+  left: 45px;
+}
+
+p.bottom {
+  bottom: 60px;
+  left: 45px;
+}
+
+.image {
+  height: 200px;
+  width: 200px;
+  padding: 20px;
+}
+
+.deleteButton {
+  width: 50%;
+  margin-left: 50px;
+  height: 30px;
+}
